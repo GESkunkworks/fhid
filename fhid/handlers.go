@@ -8,9 +8,9 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.build.ge.com/212601587/fhid/fhidLogger"
+	"github.com/GESkunkworks/fhid/fhidLogger"
 
-	"github.build.ge.com/212601587/fhid/fhidConfig"
+	"github.com/GESkunkworks/fhid/fhidConfig"
 )
 
 // HandlerImagesQuery handles posted queries to search

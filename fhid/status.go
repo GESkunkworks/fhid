@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.build.ge.com/212601587/fhid/fhidConfig"
+	"github.com/GESkunkworks/fhid/fhidConfig"
 )
 
 // status is an object to hold system status

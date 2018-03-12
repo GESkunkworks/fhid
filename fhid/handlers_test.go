@@ -11,8 +11,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.build.ge.com/212601587/fhid/fhidConfig"
-	"github.build.ge.com/212601587/fhid/fhidLogger"
+	"github.com/GESkunkworks/fhid/fhidConfig"
+	"github.com/GESkunkworks/fhid/fhidLogger"
 	"github.com/alicebob/miniredis"
 )
 

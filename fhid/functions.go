@@ -5,8 +5,8 @@ import (
 	"io"
 	"regexp"
 
-	"github.build.ge.com/212601587/fhid/fhidConfig"
-	fi "github.build.ge.com/212601587/fhid/fhidLogger"
+	"github.com/GESkunkworks/fhid/fhidConfig"
+	fi "github.com/GESkunkworks/fhid/fhidLogger"
 )
 
 type ImageQuerySub struct {

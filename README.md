@@ -70,7 +70,7 @@ Any other fields will just be ignored.
 
 ## Query
 
-Requires authentication entitlement: `none`
+Requires authentication entitlement: none
 
 Searching for an image with certain properties can be done by `POST` to the `/query` handler.
 
@@ -116,7 +116,7 @@ Would return results:
 
 ## GET
 
-Requires authentication entitlement: `read`
+Requires authentication entitlement: none
 
 You can also just do a targeted `GET` if you include the `?ImageID=<id>` image ID in the query string parameter. 
 

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.build.ge.com/212601587/fhid/fhidLogger"
+	"github.com/GESkunkworks/fhid/fhidLogger"
 
-	"github.build.ge.com/212601587/fhid/fhidConfig"
+	"github.com/GESkunkworks/fhid/fhidConfig"
 )
 
 // callAuth calls out to the auth URL and checks to see if the provided

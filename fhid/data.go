@@ -9,14 +9,14 @@ import (
 	"strings"
 	"time"
 
-	"github.build.ge.com/212601587/fhid/fhidConfig"
+	"github.com/GESkunkworks/fhid/fhidConfig"
 
 	"github.com/garyburd/redigo/redis"
 	uuid "github.com/satori/go.uuid"
 	"github.com/youtube/vitess/go/pools"
 	"golang.org/x/net/context"
 
-	"github.build.ge.com/212601587/fhid/fhidLogger"
+	"github.com/GESkunkworks/fhid/fhidLogger"
 )
 
 // Rconn is the package level redis connection

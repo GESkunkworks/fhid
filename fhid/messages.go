@@ -3,7 +3,7 @@ package fhid
 import (
 	"fmt"
 
-	"github.build.ge.com/212601587/fhid/fhidLogger"
+	"github.com/GESkunkworks/fhid/fhidLogger"
 )
 
 func messageInvalidRequest(err error) string {
