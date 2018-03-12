@@ -1,0 +1,30 @@
+{
+        "RedisEndpoint": "localhost:6379",
+        "ListenPort": "8090",
+        "ListenHost": "127.0.0.1",
+        "RedisImageIndexSet" : "IMAGE_INDEX",
+        "Authentication": {
+            "AuthEnabled": true,
+            "AuthURL": "https://auth.cloudpod.apps.company.com/v1.0",
+            "AuthMemberCheckMethod": "/validmember",
+            "AuthHeaderKey": "x-api-key",
+            "AuthHeaderGroup" : "GroupID",
+            "AuthorizedGroups": [
+                {
+                    "GroupID": "g01239869",
+                    "FriendlyName": "@Digital CoreTech Cloud Image Builders",
+                    "Entitlements" : [
+                        {"Type": "write" },
+                        {"Type": "read" }
+                    ]
+                },
+                {
+                    "GroupID": "g00919618",
+                    "FriendlyName": "@GE Public Cloud",
+                    "Entitlements" : [
+                        {"Type": "read" }
+                    ]
+                }
+            ]
+        }
+}
