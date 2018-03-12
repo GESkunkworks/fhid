@@ -70,7 +70,7 @@ Any other fields will just be ignored.
 
 ## Query
 
-Requires authentication entitlement: `read`
+Requires authentication entitlement: `none`
 
 Searching for an image with certain properties can be done by `POST` to the `/query` handler.
 
